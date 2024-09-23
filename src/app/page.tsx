@@ -3,7 +3,8 @@
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const subtitles = ["Shii Maybe", "No", "Hell no", "fuck no", "today is the day you will", "Yes", "You will", "You won't", "Nah you're overly fucked", "Lowkey nah", "Yes inshallah"];
+  const subtitles = ["Shii Maybe", "No", "Hell no", "fuck no", "today is the day you will", "Yes", "You will", "You won't", "Nah you're overly fucked", "Lowkey nah", 
+    "Yes inshallah", "Only if Zain does", "no go work 9-5", "depends how hard you work today"];
 
   const getRandomSubtitle = () => {
     const randomIndex = Math.floor(Math.random() * subtitles.length);
